@@ -50,7 +50,10 @@ class App extends Component {
                 <div style={styles.topAd}>
                     <Gpt
                         adUnitPath={adUnitPath}
-                        slotSize={[[728, 90], [970, 90]]}
+                        slotSize={[
+                            [728, 90],
+                            [970, 90]
+                        ]}
                         targeting={{test: "responsive"}}
                     />
                 </div>
